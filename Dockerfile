@@ -1,7 +1,7 @@
 FROM composer:2.6.6
 
 LABEL org.opencontainers.image.authors="Gordon Franke <info@nevalon.de>" \
-  org.opencontainers.image.source="https://github.com/gimler/docker-composer"
+  org.opencontainers.image.source="https://github.com/schoolm-de/docker-composer"
 
 RUN apk add --no-cache libxml2-dev=2.11.6-r0 icu-dev=74.1-r0 \
   \
