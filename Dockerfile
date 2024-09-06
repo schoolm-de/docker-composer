@@ -1,4 +1,4 @@
-FROM composer:2.7.8
+FROM composer:2.7.9
 
 LABEL org.opencontainers.image.authors="Gordon Franke <info@nevalon.de>" \
   org.opencontainers.image.source="https://github.com/schoolm-de/docker-composer"
