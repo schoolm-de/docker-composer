@@ -3,7 +3,7 @@ FROM composer:2.8.9
 LABEL org.opencontainers.image.authors="Gordon Franke <info@nevalon.de>" \
   org.opencontainers.image.source="https://github.com/schoolm-de/docker-composer"
 
-RUN apk add --no-cache libxml2-dev=2.13.4-r5 icu-dev=74.2-r0 \
+RUN apk add --no-cache libxml2-dev=2.13.4-r6 icu-dev=74.2-r0 \
   \
   && apk --no-cache add pcre-dev ${PHPIZE_DEPS} \
   && pecl install redis \
